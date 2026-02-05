@@ -1,0 +1,37 @@
+#customInstructionsField {
+    flex-grow: 1;
+    align-self: center;
+    white-space: normal;
+    min-height: 20px;
+    height: 20px;
+    margin: 8px 12px;
+    --unity-image-tint-color: gray;
+}
+
+#newCustomInstructionsButton {
+    margin-right: 14px;
+    margin-left: 0;
+    height: 20px;
+}
+
+#customInstructionsTooLongWarningContainer {
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: var(--muse-chat-backgrounds-50);
+    margin-bottom: 20px;
+    margin-right: 12px;
+    padding: 4px;
+    background-color: var(--muse-chat-foregrounds-300);
+}
+
+#warningIcon {
+    width: 28px;
+    height: 28px;
+    margin: 1px;
+    flex-shrink: 0;
+}
+
+#customInstructionsTooLongWarningText {
+    flex-wrap: wrap;
+    white-space: normal;
+}

@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="assistant-settings-page">
+        <ui:Label text="Assistant" name="assistantSettingsHeader" />
+        <ui:VisualElement class="assistant-settings-content">
+            <ui:VisualElement class="assistant-settings-horizontal-layout">
+                <ui:Label text="Custom Instructions" class="assistant-settings-content-label" />
+                <uie:ObjectField name="customInstructionsField" />
+                <ui:Button name="newCustomInstructionsButton" class="mui-action-button mui-header-button">
+                    <ui:Label class="mui-action-button-label-header" text="New" />
+                </ui:Button>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="customInstructionsTooLongWarningContainer"
+                              class="assistant-settings-horizontal-layout">
+                <ui:Image name="warningIcon" class="mui-icon-warn-large" />
+                <ui:VisualElement>
+                    <ui:Label name="customInstructionsTooLongWarningText" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,16 @@
+#open-generator-window {
+    margin: 0 4px 0 4px;
+    height: 24px;
+    border-width: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#open-generator-window:hover {
+    background-color: var(--muse-chat-backgrounds-50);
+}
+
+#open-generator-window Image {
+    margin-top: 2px;
+}

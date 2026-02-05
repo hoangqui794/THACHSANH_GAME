@@ -1,0 +1,28 @@
+{
+  "name": "com.unity.ai.assistant",
+  "displayName": "Assistant",
+  "version": "1.5.0-pre.2",
+  "unity": "6000.3",
+  "description": "Assistant is a generative AI tool integrated into the Unity Editor to explore ideas, answer questions, and perform actions directly in the project. Use natural-language prompts to interact with Assistant in a conversation-based interface. Depending on the mode you choose, Assistant can either provide guidance or take action in your scene and assets.\n\nAsk\nFocuses on explanation and guidance. Assistant answers questions, suggests workflows, and inspects your project using read-only tools without modifying your content.\n\nAgent\nFocuses on action. Assistant can create, modify, or remove objects and assets by calling the Unity Editor tools. All actions respect your permission settings and require approval when needed.\n\nAssistant is designed to be project-aware, helping you work more efficiently without leaving the Unity Editor. For best results, use Assistant with Unity 6.3 or later.",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.serialization": "3.1.1",
+    "com.unity.ai.generators": "1.5.0-pre.2"
+  },
+  "unityRelease": "0f1",
+  "_upm": {
+    "changelog": "### Added\n\n- What's New section about points.\n\n### Changed\n\n- Changed package description.\n\n### Fixed\n\n- Fixed right-click issue in chat history.\n- Fixed new missing permissions cost."
+  },
+  "upmCi": {
+    "footprint": "d2e3b5e9e37ba03b821911b91297d6b8ce75aade"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ai.assistant@1.5/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/muse-editor.git",
+    "type": "git",
+    "revision": "f67296e6227b78d61b8a24c37b024f3d964d2c98"
+  },
+  "_fingerprint": "e6a38fa97d39bb19d9154b5c2948d72b730bd072"
+}
